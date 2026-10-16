@@ -1,0 +1,17 @@
+{
+  "beta": 0.1,
+  "lr": 1e-06,
+  "lr_schedule": "fixed",
+  "weight_decay": 0.0,
+  "clip_norm": 1.0,
+  "micro_batch_size": 1,
+  "accum_steps": 32,
+  "effective_batch_size": 32,
+  "max_length": 512,
+  "total_steps": 468,
+  "train_pairs": 15000,
+  "val_pairs": 1000,
+  "eval_every": 50,
+  "optimizer": "AdamW",
+  "precision": "policy fp32 weights with fp16 autocast, reference torch.float32"
+}

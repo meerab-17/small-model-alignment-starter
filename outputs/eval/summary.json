@@ -1,0 +1,62 @@
+{
+  "hh_dpo_vs_sft": {
+    "model_x": "dpo-hh",
+    "model_y": "sft",
+    "x_wins": 181,
+    "y_wins": 81,
+    "ties": 38,
+    "unknown": 0,
+    "total": 300,
+    "win_rate_without_ties": 0.6908,
+    "ci95_without_ties": 0.056,
+    "win_rate_ties_half": 0.6667
+  },
+  "uf_dpo_vs_sft": {
+    "model_x": "dpo-uf",
+    "model_y": "sft",
+    "x_wins": 94,
+    "y_wins": 109,
+    "ties": 97,
+    "unknown": 0,
+    "total": 300,
+    "win_rate_without_ties": 0.4631,
+    "ci95_without_ties": 0.0686,
+    "win_rate_ties_half": 0.475
+  },
+  "lora_style": {
+    "model_x": "lora",
+    "model_y": "untuned",
+    "x_wins": 2,
+    "y_wins": 1,
+    "ties": 21,
+    "unknown": 0,
+    "total": 24,
+    "win_rate_without_ties": 0.6667,
+    "ci95_without_ties": 0.5334,
+    "win_rate_ties_half": 0.5208
+  },
+  "lora_usefulness": {
+    "model_x": "lora",
+    "model_y": "untuned",
+    "x_wins": 4,
+    "y_wins": 14,
+    "ties": 6,
+    "unknown": 0,
+    "total": 24,
+    "win_rate_without_ties": 0.2222,
+    "ci95_without_ties": 0.1921,
+    "win_rate_ties_half": 0.2917
+  },
+  "lora_safety_prompts_only": {
+    "model_x": "lora",
+    "model_y": "untuned",
+    "x_wins": 3,
+    "y_wins": 2,
+    "ties": 1,
+    "unknown": 0,
+    "total": 6,
+    "win_rate_without_ties": 0.6,
+    "ci95_without_ties": 0.4294,
+    "win_rate_ties_half": 0.5833
+  }
+}

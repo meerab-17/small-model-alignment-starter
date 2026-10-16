@@ -1,0 +1,16 @@
+{
+  "peak_lr": 2e-05,
+  "warmup_fraction": 0.03,
+  "weight_decay": 0.1,
+  "clip_norm": 1.0,
+  "micro_batch_size": 2,
+  "accum_steps": 16,
+  "effective_batch_size": 32,
+  "max_length": 512,
+  "total_steps": 937,
+  "train_pairs": 30000,
+  "val_pairs": 1000,
+  "eval_every": 100,
+  "optimizer": "AdamW",
+  "precision": "fp16 autocast, fp32 weights"
+}

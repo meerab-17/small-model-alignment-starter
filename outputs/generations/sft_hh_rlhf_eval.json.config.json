@@ -1,0 +1,11 @@
+{
+  "model_path": "outputs/sft_run/best",
+  "generator_name": "sft",
+  "seed": 42,
+  "decoding": "greedy",
+  "max_new_tokens": 256,
+  "repetition_penalty": 1.0,
+  "max_prompt_tokens": 256,
+  "prompt_start": "Instruction:\n",
+  "prompt_end": "\n\nResponse:\n"
+}

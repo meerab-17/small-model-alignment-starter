@@ -1,0 +1,37 @@
+{
+  "dpo-hh_hh_rlhf_eval.json": {
+    "answers": 300,
+    "empty": 0,
+    "over_900_chars": 95,
+    "line_repeated_3_times": 21,
+    "average_chars": 683.9
+  },
+  "dpo-uf_alpaca_eval.json": {
+    "answers": 300,
+    "empty": 0,
+    "over_900_chars": 164,
+    "line_repeated_3_times": 53,
+    "average_chars": 836.6
+  },
+  "qwen2.5-0.5b-base_alpaca_eval.json": {
+    "answers": 300,
+    "empty": 0,
+    "over_900_chars": 144,
+    "line_repeated_3_times": 33,
+    "average_chars": 770.7
+  },
+  "sft_alpaca_eval.json": {
+    "answers": 300,
+    "empty": 0,
+    "over_900_chars": 111,
+    "line_repeated_3_times": 56,
+    "average_chars": 680.4
+  },
+  "sft_hh_rlhf_eval.json": {
+    "answers": 300,
+    "empty": 0,
+    "over_900_chars": 146,
+    "line_repeated_3_times": 23,
+    "average_chars": 802.0
+  }
+}
